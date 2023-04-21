@@ -1,0 +1,166 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+  
+
+.box .img{
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+    margin-bottom: 4px;
+}
+  
+.box .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+  
+.box .text{
+    width: 80px;
+}
+.box .text p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+}
+  
+  /* header end */
+  
+  /* content start */
+  
+.content{
+    width: 100%;
+    min-height: 130vh;
+    /* background-color:transparent ; */
+    /* color: white; */
+}
+
+.content .h2{
+    padding: 20px 0 30px 0;
+}
+  
+.card-item{
+    position: relative;
+}
+
+.card-header{
+    /* margin-bottom: 15px !important; */
+    padding: 0 0 15px 0 !important;
+    display: flex;
+    justify-content: space-between;
+    /* padding-right:20px; */
+    align-items: center;
+    background-color: white !important;
+    width:100% ;
+    height: 40px;
+}
+  
+.card-hover{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow: hidden;
+}
+
+.card-hover p{
+    color: rgb(18, 18, 197);
+    font-weight: bold;
+}
+  
+.card-hover img{
+    width: 40px;
+    border-radius: 50%;
+}
+ 
+.card-center{
+    width: 100%;
+    height: 100%;
+}
+.card-center img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card-center p{
+    font-size: 14px;
+}
+
+.card14 {
+    border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.text1{
+    padding-bottom: 20px;
+}
+
+
+.len {
+    white-space: nowrap; 
+    width: 60px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+    border:none
+}
+
+.len-2 {
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+    border:none
+}
+
+/* popap1 */
+  
+  
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    /* width: 80%; */
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+
+
+.overlay button {
+     
+     
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
+
+ 
